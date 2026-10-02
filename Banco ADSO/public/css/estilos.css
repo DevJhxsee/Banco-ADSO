@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f3;
+  color: #333;
+}
+
+header {
+  background-color: #1c1c1e;
+  color: white;
+  padding: 15px 30px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #d4a531;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f5f5f3;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+nav a:hover {
+  color: #d4a531;
+}
+
+main {
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+h2 {
+  color: #b8860b;
+}
+
+form,
+.tarjeta {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  border-top: 4px solid #b8860b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  max-width: 400px;
+}
+
+.tarjeta {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #b8860b;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #b8860b;
+  color: #1c1c1e;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #946c08;
+  color: white;
+}
+
+.exito,
+.error {
+  max-width: 400px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.exito {
+  background-color: #e3f6e8;
+  color: #1e7b3a;
+  border: 1px solid #b6e2c3;
+}
+
+.error {
+  background-color: #fdecee;
+  color: #b00020;
+  border: 1px solid #f5c2c7;
+}
+
+.ingreso {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.gris {
+  color: #777;
+  margin: 0;
+}
+
+.saldo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #b8860b;
+  margin: 5px 0 0;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b8860b;
+  color: #1c1c1e;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.boton:hover {
+  background-color: #946c08;
+  color: white;
+}
+
+.resumen {
+  display: flex;
+  gap: 15px;
+}
+
+.resumen .tarjeta {
+  flex: 1;
+}
+
+.numero {
+  font-size: 26px;
+  font-weight: bold;
+  color: #b8860b;
+  margin: 5px 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #1c1c1e;
+  color: #d4a531;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
